@@ -1,9 +1,5 @@
+**Crop Disease Detection Using Deep Learning**  
 
-# 🌿 CropGuard AI
-# Crop Disease Detection Project
-Your final content here (clean version)
-> **Crop Disease Detection Using Deep Learning**  
-> BCA AIML Final Year Project
 
 ![React](https://img.shields.io/badge/Frontend-React%2018-61DAFB?style=flat-square)
 ![Flask](https://img.shields.io/badge/Backend-Flask%203.0-000?style=flat-square)
