@@ -1,5 +1,7 @@
-# 🌿 CropGuard AI
 
+# 🌿 CropGuard AI
+# Crop Disease Detection Project
+Your final content here (clean version)
 > **Crop Disease Detection Using Deep Learning**  
 > BCA AIML Final Year Project
 
@@ -348,3 +350,6 @@ BCA AIML Final Year Project — 2026
 
 **Good luck with your presentation! 🌿**
 "# crop-disease-detection" 
+=======
+# crop-disease-detection
+>>>>>>> ad148f26f429238b4cd9ae70cd04cee42508af1e
