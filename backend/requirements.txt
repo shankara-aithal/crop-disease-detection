@@ -1,0 +1,26 @@
+# CropGuard AI — Backend Dependencies
+# pip install -r requirements.txt
+
+Flask==3.0.2
+Flask-SQLAlchemy==3.1.1
+Flask-Login==0.6.3
+Flask-CORS==4.0.0
+Flask-Mail==0.10.0
+Werkzeug==3.0.1
+
+# Deep Learning
+tensorflow==2.15.0        # or tensorflow-cpu for no-GPU machines
+
+# Image Processing
+Pillow==10.2.0
+numpy==1.26.4
+opencv-python==4.9.0.80
+
+# Data / Evaluation
+matplotlib==3.8.3
+scikit-learn
+pandas==2.2.1
+
+# Utilities
+python-dotenv==1.0.1
+gunicorn==21.2.0

@@ -1,0 +1,279 @@
+/* src/pages/styles/Admin.css */
+.admin {
+  min-height: calc(100vh - 60px);
+  background: #fafaf9;
+  padding: 30px 20px;
+}
+
+.admin .container {
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.admin-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 28px;
+}
+
+.admin-header h1 {
+  font-size: 24px;
+  font-weight: 600;
+  color: #111827;
+  margin: 0;
+}
+
+.admin-header p {
+  font-size: 12px;
+  color: #6b7280;
+  margin: 4px 0 0;
+}
+
+.admin-buttons {
+  display: flex;
+  gap: 8px;
+}
+
+.btn-secondary {
+  background: transparent;
+  border: 1px solid #d1d5db;
+  color: #374151;
+  padding: 6px 14px;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+  transition: background 0.2s;
+  display: inline-block;
+}
+
+.btn-secondary:hover {
+  background: #f9f9f8;
+}
+
+.metrics-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.metric-card {
+  background: white;
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.metric-card .label {
+  font-size: 11px;
+  color: #9ca3af;
+  text-transform: uppercase;
+  letter-spacing: 0.4px;
+  margin: 0 0 6px;
+}
+
+.metric-card .value {
+  font-size: 24px;
+  font-weight: 700;
+  color: #111827;
+  margin: 0;
+}
+
+.metric-card .sub {
+  font-size: 11px;
+  color: #6b7280;
+  margin: 4px 0 0;
+}
+
+.charts-grid {
+  display: grid;
+  grid-template-columns: 1.6fr 1fr;
+  gap: 12px;
+  margin-bottom: 24px;
+}
+
+.chart-card {
+  background: white;
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid #f0f0f0;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.06);
+}
+
+.chart-card h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 12px;
+}
+
+.disease-list {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.disease-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 6px 0;
+  border-bottom: 1px solid #f5f5f5;
+  font-size: 12px;
+}
+
+.disease-row .name {
+  flex: 1;
+  color: #374151;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.disease-row .count {
+  background: #f0f0f0;
+  color: #6b7280;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  margin-left: 8px;
+}
+
+.model-card,
+.recent-card {
+  background: white;
+  border-radius: 10px;
+  padding: 14px;
+  border: 1px solid #f0f0f0;
+  margin-bottom: 12px;
+}
+
+.model-card h3,
+.recent-card h3 {
+  font-size: 13px;
+  font-weight: 600;
+  color: #374151;
+  margin: 0 0 12px;
+}
+
+.model-info {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 10px;
+}
+
+.model-info p {
+  font-size: 12px;
+  margin: 0;
+  color: #6b7280;
+}
+
+.model-info strong {
+  color: #111827;
+}
+
+.card-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+.btn-link {
+  color: #0369a1;
+  text-decoration: none;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.btn-link:hover {
+  text-decoration: underline;
+}
+
+.pred-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 12px;
+}
+
+.pred-table th {
+  text-align: left;
+  padding: 8px;
+  border-bottom: 1px solid #f0f0f0;
+  font-weight: 500;
+  color: #9ca3af;
+}
+
+.pred-table td {
+  padding: 8px;
+  border-bottom: 1px solid #f9f9f8;
+  color: #374151;
+}
+
+.badge {
+  display: inline-block;
+  padding: 2px 8px;
+  border-radius: 4px;
+  font-size: 11px;
+  font-weight: 500;
+}
+
+.badge.h {
+  background: #dcfce7;
+  color: #15803d;
+}
+
+.badge.d {
+  background: #fee2e2;
+  color: #991b1b;
+}
+
+.conf-bar {
+  display: inline-block;
+  width: 60px;
+  height: 4px;
+  background: #f0f0f0;
+  border-radius: 2px;
+  overflow: hidden;
+  margin-right: 6px;
+}
+
+.conf-bar div {
+  height: 100%;
+  background: #16a34a;
+}
+
+.time {
+  color: #9ca3af;
+}
+
+.loading {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: calc(100vh - 60px);
+  color: #6b7280;
+}
+
+@media (max-width: 768px) {
+  .metrics-grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .charts-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .model-info {
+    grid-template-columns: 1fr;
+  }
+
+  .admin-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 12px;
+  }
+}
